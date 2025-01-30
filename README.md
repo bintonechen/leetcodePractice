@@ -4,7 +4,7 @@ This repository contains my solutions to various LeetCode problems. I am activel
 
 ## About
 - Solutions are implemented in **Java**.
-- Problems are categorized based on difficulty and topic.
+- Problems are categorized based on topic.
 - I will continually update this repository as I solve more problems.
 
 Happy coding!🏝️
