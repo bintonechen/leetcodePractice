@@ -58,7 +58,7 @@ public class LC15 {
             Arrays.sort(nums);
             List<List<Integer>> answer = new ArrayList<List<Integer>>();
 
-            // Iterate through to get B
+            // Iterate through to get A
             for(int first = 0; first<n; first++){
 
                 // skip duplicate elements to avoid duplicate triplets
