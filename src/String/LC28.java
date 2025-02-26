@@ -41,15 +41,16 @@ public class LC28 {
         }
 
         public void getNext(int[] next, String s){
-            int j = 0; // to track the length of the proper prefix/suffix
-            next[0] = 0;
+            int j = 0; // track the length of the longest prefix/suffix
+            next[0] = 0; // the first character has no prefix
 
-            for(int i = 1; i<s.length();i++){ // build from the second character
+            for(int i = 1; i<s.length();i++){ // start from the second character
                 // if a mismatch, move j back to the previous prefix position
                 while(j>0 && s.charAt(j)!=s.charAt(i)){
                     j = next[j-1];
                 }
-                // if characters match, increase j
+
+                // if characters match, increment j
                 if(s.charAt(j)==s.charAt(i)){
                     j++;
                 }
