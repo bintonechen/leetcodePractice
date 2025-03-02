@@ -37,7 +37,7 @@ public class LC232 {
         }
 
         public boolean empty() {
-            return stackIn.isEmpty() &&stackOut.isEmpty();
+            return stackIn.isEmpty() && stackOut.isEmpty();
 
         }
 
