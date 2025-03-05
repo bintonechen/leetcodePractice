@@ -7,7 +7,7 @@ package binaryTree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LC145 {
+public class LC145RecursiveApproach {
 
     public List<Integer> postorderTraversal(TreeNode root) {
 
@@ -27,11 +27,6 @@ public class LC145 {
         postorderTraversal(node.right, results);
         results.add(node.val);
     }
-
-
-
-
-
 
     public class TreeNode {
         int val;

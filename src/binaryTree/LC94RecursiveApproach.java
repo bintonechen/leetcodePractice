@@ -8,7 +8,7 @@ package binaryTree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LC94 {
+public class LC94RecursiveApproach {
     public List<Integer> inorderTraversal(TreeNode root) {
 
         List<Integer> results = new ArrayList<>();

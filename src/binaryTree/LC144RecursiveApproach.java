@@ -7,10 +7,9 @@ package binaryTree;
 
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-public class LC144 {
+public class LC144RecursiveApproach {
 
 
     class Solution {
